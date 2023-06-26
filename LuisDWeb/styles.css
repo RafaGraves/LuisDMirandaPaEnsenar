@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1 {
+    color: #FFF;
+    letter-spacing: .2rem;
+    font-size: 6rem;
+}
+
+
+
+.hero {
+    background-color: #F5EFE7;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #fff, #aaa9a9, #b7a9a9, #bfabd4, #e2e2e2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease-out;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+#title {
+    color: #fff;
+}
+.navbar-expand-lg {
+    font-size: large;
+    list-style: none;
+    padding: 0 0 0;
+    margin: 0;
+}
+
+.label-search {
+    position: relative;
+    border-radius: 50px;
+    padding: 0.2em 1.3em;
+    margin-left: 15px;
+    font-size: 17px;
+    background-color: transparent;
+    display: flex;
+    transition: background-color 0.3s;
+}
+.label-search.open {
+    background-color: #fff;
+}
+ .input {
+    border: 0;
+    outline: 0;
+    background: none;
+    font: inherit;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-family: Avenir, sans-serif;
+    width: 0; 
+    transition: width 0.3s;
+    max-width: 257px;
+}
+
+.open .input {
+    width: 150px;
+   
+}
+.button-search {
+    background: none;
+    border: 0;
+    outline: 0;
+    padding: 1px 0 1px;
+    left: 19px;
+    width: 20px;
+    height: 30px;
+    margin-right: 4px;
+    color: black;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.button-search:hover {
+    color: #5d5a9f;
+}
+.open .button-search {
+    color: #000;
+}
+
+.my-vr {
+    margin-left: 15px;
+}
+
+.laboratory-navbar{
+    font-size: 1.2rem;
+}
+.luis-d-miranda-nombre{
+    font-size: 2rem;
+}
+.nav-item:hover {
+    opacity: 0.4;
+}
+
+.my-hero-class {
+    background-color:transparent;
+    height: 85vh;
+    background-color: blue;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.lead {
+    padding-bottom: 10px;
+    
+}
+.h2-lead {
+    padding-bottom: .3rem;
+}
+.my-contact-button {
+    width: 30%;
+    height: 30%;
+}
+
+.molecules-hero {
+    padding-right: 1.5rem;
+}
+/* 
+This is the carousel sxn
+*/
+
+#carousel {
+    padding-top: 0rem;
+}
+
+.my-carousel-container {
+    padding-top: 0;
+}
+
+.profile-img {
+    height: 110px;
+    border-radius: 5px;
+}
+
+/* 
+Section main research
+*/
+
+.main-research-button {
+	background-color:#635985;
+	border-radius:15px;
+	border:1px solid #443C68;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration:none;
+}
+.main-research-button:hover {   
+    color: #fff;
+    background-color: #ffb9b485;
+}
+.main-research-button:active {
+	position:relative;
+	top:1px;
+}
+
+/* 
+
+carousel control
+
+*/
+#recent-publications{
+    padding-top: 0;
+}
+.my-h2-recent-publications{
+    margin-bottom: 50px;
+}
+.carousel-separator {
+    align-content: center;
+}
+
+/* 
+aqui empieza RESEARCH!!!!!!!!
+
+*/
+
+.container-hero-research {
+    height: 100vh; 
+    padding-top: 100px;
+    color: #FFF;
+
+}
+.my-hero-text {
+    letter-spacing: -1px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.free-radical-information {
+    padding-top: 50px;
+}
+
+
+/* aqui empieza PEOPLE!!!!!!!!
+*/
+
+#people {
+    height: 100vh;
+}
+
+#people-cards {
+    padding-top: 50px;
+}
+
+.card-people {
+    
+}
+
